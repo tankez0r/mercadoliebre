@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100&display=swap');
+
+
+:root {
+    --colorAmarilloFondo: #EAC926;
+    --colorAzul: #03264C;
+    --colorCeleste: #1259c3;
+    --colorGrisOscuro: #666;
+    --colorGrisClaro: #ebebeb;
+    --colorVerde: #39b54a;
+    --cuerpoAltoTexto: 12px;
+    --titulosAltoTexto: 24px;
+    --preciosAltoTexto: 18px;
+    --descripcionesDescuentoAltoTexto: 16px;
+    --familyRobot: 'Roboto', sans-serif;
+    --colornegro: black;
+
+}
+
+.body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    background-color: var(--colorAmarilloFondo);
+    overflow-x: hidden;
+}
+
+
+.headers {
+    font-size: 24px;
+}
+
+.buy-tittle{
+    display: flex;
+    justify-content: center;
+}
+
+.pricess {
+    font-size: 18px;
+}
+
+.discount {
+    font-size: 16px;
+}
+
+.description {
+    font-size: 16px;
+}
+
+.burger-menu {
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    align-items: center;
+    margin: 20px 0px
+}
+
+.burger-menu i {
+    background-color: var(--colorCeleste);
+    padding: 6px;
+    font-size: 15px;
+    border: var(--colorCeleste);
+    border-radius: 5px;
+    color: var(--colorGrisClaro)
+}
+
+
+.imagen {
+    margin: -8px;
+    width: 99vw;
+}
+
+.imagen-card {
+    width: 50vw;
+}
+
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align-last: center;
+    background-color: var(--colorGrisClaro);
+    margin: -8px;
+    padding: 15px 10 px
+}
+
+.footer p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 10px;
+    margin: 1px 1px
+}
+
+.footer h4 {
+    font-weight: bolder;
+    font-size: 12px;
+    margin: 1px 1px
+}
+.footer section {
+    margin: 10px 0;
+}
