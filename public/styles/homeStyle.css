@@ -29,10 +29,12 @@
     font-size: 24px;
 }
 
-.buy-tittle{
+.buy-tittle {
     display: flex;
     justify-content: center;
 }
+
+
 
 .pricess {
     font-size: 18px;
@@ -69,9 +71,43 @@
     width: 99vw;
 }
 
-.imagen-card {
-    width: 50vw;
+
+
+.sector_main {
+    width: 90vw;
 }
+
+.sector_main article {
+    margin: 10px 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.product_detail {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.line_product {
+    width: 100px;
+    border: 1px solid #ebebeb;
+    width: -webkit-fill-available
+}
+.offer_text {
+    color: var(--colorVerde);
+}
+
+.imagen-card {
+    width: 89vw;
+}
+
+
+
 
 
 
@@ -97,6 +133,7 @@
     font-size: 12px;
     margin: 1px 1px
 }
+
 .footer section {
-    margin: 10px 0;
+    margin: 10px 1px;
 }
